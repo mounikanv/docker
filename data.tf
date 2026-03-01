@@ -1,5 +1,5 @@
 
-data "aws_ami" "joindevops" {
+/* data "aws_ami" "joindevops" {
   owners      = ["self"]
   most_recent = true
 
@@ -18,3 +18,4 @@ data "aws_ami" "joindevops" {
     values = ["hvm"]
   }
 }
+ */
