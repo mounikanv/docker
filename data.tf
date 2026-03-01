@@ -19,9 +19,7 @@
   }
 }
  */
- provider "aws" {
-  region = "us-east-1"  # change this to your AMI's region
-}
+
 
 data "aws_ami" "joindevops" {
   owners      = ["341841617158"]   # your AWS account ID
