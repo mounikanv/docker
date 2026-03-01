@@ -21,7 +21,7 @@
  */
 
 
-data "aws_ami" "joindevops" {
+data "aws_ami" "name" {
   owners      = ["341841617158"]   # your AWS account ID
   most_recent = true
 
