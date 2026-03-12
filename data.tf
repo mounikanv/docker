@@ -5,7 +5,7 @@ data "aws_ami" "joindevops" {
 
   filter {
     name   = "name"
-    values = ["RHEL-9-DevOps-Practice*"]  # wildcard allows suffix
+    values = ["Redhat-9-DevOps-Practice"]  # wildcard allows suffix
   }
 
   filter {
